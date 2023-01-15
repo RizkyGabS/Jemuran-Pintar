@@ -13,6 +13,6 @@ Jemuran ini dapat bergerak menggunakan servo. Indikator yang menggerakkan servo 
 1. Download/duplicate project "https://github.com/inovex/mqtt-stresser".
 2. Install Golang "https://go.dev/dl/".
 3. pada path nomor (1) jalankan perintah pada terminal "go install" kemudian "go build".
-4. eksekusi test (windows) "mqtt-stresser.exe -broker tcp://127.0.0.1:1883 -num-clients 10 -num-messages 150 -rampup-delay 1s -rampup-size 10 -global-timeout 180s -timeout 20s".
+4. eksekusi test (windows) "mqtt-stresser.exe -broker tcp://0.tcp.ap.ngrok.io:yourport -num-clients 10 -num-messages 150 -rampup-delay 1s -rampup-size 10 -global-timeout 180s -timeout 20s".
 
 Note: Program ini dijalankan dengan pyhton versi 3.1.1.
