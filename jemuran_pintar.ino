@@ -111,7 +111,7 @@ hum = data.humidity;
 Serial.println("===================");
 Serial.print("Suhu: ");
 Serial.println(temp);
-Serial.print("Kelembaban: ");
+Serial.print("Kelembapan: ");
 Serial.println(hum);
 Serial.print("Cahaya Matahari: ");
 Serial.println(ldr);
